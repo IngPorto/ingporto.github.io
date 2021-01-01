@@ -1,0 +1,213 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.spacer{
+    padding: 100px 0;
+}
+.spacer-small{
+    padding: 50px 0;
+}
+.section-title{
+    color: #4a5568;
+    margin-bottom: 50px;
+}
+.section-title-white{
+    color: white;
+    margin-bottom: 50px;
+}
+.center{
+    margin: auto;
+    display: block;
+}
+.dark-section{
+    background-color: black;
+}
+.line-height-1{
+    line-height: 1;
+}
+
+/*Cover*/
+#cover{
+    z-index: 1;
+}
+.cover-img{
+    max-width: 300px;
+    width: 100%;
+}
+.icon-cover-social-network {
+    color: #4a5568;
+    font-size: 30px;
+}
+.icon-cover-social-network:hover{
+    color: #7794c7;
+    cursor: pointer;
+}
+
+.cover-title {
+    font-size: 35px;
+    color: #404040;
+}
+.cover-subtitle{
+    font-size: 20px;
+    color: #707070;
+}
+.cover-description {
+    color: #707070;
+}
+
+.custom-bullet{
+    padding: 2px 8px;
+    border-radius: 3px;
+    background-color: #59607A;
+    margin-bottom: 5px;
+}
+.custom-bullet:not(:last-child) {
+    margin-right: 5px;
+}
+.custom-bullet-text{
+    color: white;
+}
+
+/*work*/
+.simple-card{
+    min-width: 300px;
+    max-width: 360px;
+    margin-bottom: 30px;
+}
+.simple-card-image{
+    height: 200px;
+    background-image: url(../images/aws.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+.nuque-bg{
+    background-image: url(../images/wide-nuque-logo.png);
+    background-size: cover;
+}
+.tabica-bg{
+    background-image: url(../images/tabica-logo.png);
+    background-size: cover;
+}
+.tabica-sm-bg{
+    background-image: url(../images/tabica-logo-sm.png);
+    background-size: cover;
+}
+.coomunity-bg{
+    background-image: url(../images/coomunity.png);
+    background-size: cover;
+}
+.datic-bg{
+    background-image: url(../images/datic.png);
+    background-size: cover;
+}
+.twitter-bg{
+    background-image: url(../images/twitter.png);
+    background-size: cover;
+}
+.simple-card-image .color-changer{
+    width: 100%;
+    height: 100%;
+    background-color: #b8c586;
+    opacity: 70%;
+}
+.simple-card-image div:hover{
+    cursor: pointer;
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes fade {
+    from {
+        background-color: #b8c586;
+    }
+    to {
+        background-color: transparent;
+    }
+}
+.simple-card-image img{
+    width: 100%;
+    height: 100%;
+}
+.simple-card-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #4a5568;
+}
+.simple-card-title p{
+    line-height: 1.2;
+    margin: 20px 5px 6px;
+}
+.simple-card-icons{
+    color: #4a5568;
+    text-align: right;
+    cursor: default;
+}
+.simple-card-icons i:not(:last-child){
+    margin-right: 3px;
+}
+
+/*ARTICLE*/
+.article-content{
+    max-width: 800px;
+    margin: auto;
+}
+.icon-download-file{
+    font-size: 4em;
+}
+
+.custom-btn-outline-black{
+    min-width: 160px;
+    min-height: 45px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #707070;
+    font-weight: 500;
+    color: #5d5d5d;
+}
+
+.custom-btn-outline-black:hover{
+    background-color: #f3f5f7;
+    border-color: #cacaca!important;
+}
+
+/*ABOUT*/
+.about-image{
+    max-width: 180px;
+}
+.about-content{
+    max-width: 600px;
+    margin: auto;
+    align-items: center;
+}
+
+/*CONTACT*/
+#contact-container{
+    z-index: 1;
+}
+.custom-contact-form{
+    max-width: 500px;
+    margin: auto;
+}
+.custom-contact-form input, textarea{
+    padding: 10px 15px;
+    /*margin-bottom: 25px;*/
+}
+.custom-contact-form .group{
+    margin-bottom: 25px;
+}
+.custom-contact-form button{
+    background-color: #B8C586;
+    color: black;
+}
+
+/*footer*/
+.copyright-text{
+    color: #A4A4A4;
+    font-size: 0.9em;
+    font-weight: 500;
+}
