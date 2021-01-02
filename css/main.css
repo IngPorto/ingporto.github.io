@@ -25,6 +25,11 @@ body{
 }
 .dark-section{
     background-color: black;
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(22,21,48,1) 35%, rgba(23,26,32,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(22,21,48,1) 35%, rgba(23,26,32,1) 100%);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(22,21,48,1) 35%, rgba(23,26,32,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#171a20",GradientType=1);
 }
 .line-height-1{
     line-height: 1;
