@@ -70,7 +70,7 @@
                     </div>
                     <div class="bullet-skills-container d-flex flex-wrap justify-content-center">
                         <div class="custom-bullet">
-                            <span class="custom-bullet-text">Javascript</span>
+                            <span class="custom-bullet-text">Leadership</span>
                         </div>
                         <div class="custom-bullet">
                             <span class="custom-bullet-text">NodeJs</span>
@@ -83,6 +83,12 @@
                         </div>
                         <div class="custom-bullet">
                             <span class="custom-bullet-text">MySQL</span>
+                        </div>
+                        <div class="custom-bullet">
+                            <span class="custom-bullet-text">Docker</span>
+                        </div>
+                        <div class="custom-bullet">
+                            <span class="custom-bullet-text">AWS</span>
                         </div>
                         <div class="custom-bullet">
                             <span class="custom-bullet-text">Design Thinking</span>
@@ -433,7 +439,7 @@
                 </div>
                 <div class="col">
                     <p>Master in Software Engineering and Multimedia Engineer.</p>
-                    <p>With 5 years developing web applications, foundation in computational sciences, knowledge and skills in the use of languages and techniques for programming for development back-end and front-end. With complementary experience in the development of Android mobile applications, computerized machine learning technique, a range of knowledge in the graphic design and UX user experience design and knowledge in the design of software architectures.</p>
+                    <p>Multimedia Engineer, with 7 years experience in the development of web applications, foundation in computational sciences, knowledge and skills in the use of languages and techniques for programming for software development.In the last years I have led teams in charge of operating and maintaining software services; designing and implementing software architectures and solutions; and researching and prototyping in the service of the business vision.</p>
                 </div>
             </div>
         </div>
@@ -472,7 +478,7 @@
     <!-- /CONTACT -->
 
     <footer class="spacer-small">
-        <p class="text-center copyright-text">ingporto — Copyright 2021</p>
+        <p class="text-center copyright-text">ingporto — Copyright <span id="actual-year-date"></span></p>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -511,6 +517,11 @@
                 form.submit();
             }
         }
+    </script>
+    <script>
+        // Update actual year date
+        const actualYear = new Date().getFullYear()
+        document.getElementById('actual-year-date').innerHTML = actualYear
     </script>
 </body>
 </html>
